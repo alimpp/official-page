@@ -1,21 +1,25 @@
 {
     "carouseldata":[
         {
+            "id":0,
             "image": "https://autoline24.ir/img/s/truck-tractor-SCANIA-R-500-Next-Generation---1664813848018234480_big--22100319165059155100.jpg",
             "title": "Best Services",
             "content": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum"
         },
         {
+            "id":1,
             "image": "https://cdn.motor1.com/images/mgl/7ZeWYJ/s3/scania-electric-truck.jpg",
             "title": "Best support",
             "content": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum"
         },
         {
+            "id":2,
             "image": "https://www.ttnews.com/sites/default/files/images/articles/volvo-truck-test-track-1200.jpg",
             "title": "50 Years Exprience",
             "content": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum"
         },
         {
+            "id":3,
             "image": "https://static.toiimg.com/thumb/resizemode-4,msid-86991402,width-1200,height-900/86991402.jpg",
             "title": "Transfer",
             "content": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum"
