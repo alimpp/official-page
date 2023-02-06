@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 export const applicationTheme = defineStore('theme' , {
-    state: () => ({themeStatus : 'light'}) ,  
+    state: () => ({themeStatus : 'dark'}) ,  
     actions : {
        changeThemeStatus(){
         if(this.themeStatus === "light"){

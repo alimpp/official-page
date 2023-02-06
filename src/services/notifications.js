@@ -1,8 +1,6 @@
 import { useToast } from "vue-toastification";
 const Toast = useToast();
 
-// all position  => top-right top-center top-left bottom-right bottom-center bottom-left 
-
 export const SuccessNotification = (timeout,text,position) => {
   Toast.success(text, {
     timeout: timeout,

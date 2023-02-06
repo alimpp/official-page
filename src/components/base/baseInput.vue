@@ -7,6 +7,7 @@
         'bi-eye-slash': password,
         'bi-gender-ambiguous': gender,
         'bi-envelope-at': email,
+        'bi-chat-dots': message,
       }"
     ></i>
     <input
@@ -44,6 +45,11 @@ const email = computed(() => {
     return true;
   }
 });
+const message = computed(() => {
+  if(props.icon === "message"){
+    return true
+  }
+})
 const disabledInput = computed(() => {
   if (props.disable == true) {
     return true;
@@ -98,7 +104,7 @@ const props = defineProps({
     color: rgb(142, 142, 142);
   }
   .error {
-    border: 1px solid #ff4d4f;
+    border: 2px solid #ff4d4f;
   }
   .disbaled_input {
     background: rgba(0, 0, 0, 0.2);

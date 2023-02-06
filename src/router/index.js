@@ -8,9 +8,9 @@ const routes = [
     component: () => import("@/layout/main.vue"),
     children: [
       {
-        path:"/home",
-        name: "home page",
-        component: () => import("@/pages/homePage.vue"),
+        path:"/",
+        name: "index page",
+        component: () => import("@/pages/index.vue"),
       },
     ]
   }

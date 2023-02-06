@@ -10,16 +10,27 @@
       <img src="@/assets/images/logo.png" alt="logo" />
     </div>
     <div class="item-container">
-      <themeSwitcher />
+      <themeSwitcher class="mx-2" />
     </div>
   </div>
 </template>
 
 <script setup>
 import { computed } from "vue";
-import themeSwitcher from "@/components/themeSwitcher";
 import { applicationTheme } from "@/stores/applicationTheme";
+import themeSwitcher from "@/components/themeSwitcher";
+import { useRouter } from "vue-router";
+
+const props = defineProps({
+  refrence : {
+    type: String , 
+    default : "",
+  }
+});
+
 const theme = applicationTheme();
+const router = useRouter();
+
 const watchTheme = computed(() => {
   return theme.themeStatus;
 });
