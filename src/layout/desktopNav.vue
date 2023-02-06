@@ -1,5 +1,11 @@
 <template>
-  <div class="desktop-nav-container light_background">
+  <div
+    class="desktop-nav-container"
+    :class="{
+      nav_dark_mode_theme: watchTheme === 'dark',
+      nav_light_mode_theme: watchTheme === 'light',
+    }"
+  >
     <div class="logo-container">
       <img src="@/assets/images/logo.png" alt="logo" />
     </div>
@@ -10,7 +16,13 @@
 </template>
 
 <script setup>
+import { computed } from "vue";
 import themeSwitcher from "@/components/themeSwitcher";
+import { applicationTheme } from "@/stores/applicationTheme";
+const theme = applicationTheme();
+const watchTheme = computed(() => {
+  return theme.themeStatus;
+});
 </script>
 
 <style lang="scss" scoped>
