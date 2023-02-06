@@ -9,7 +9,7 @@
         </div>
       </div>
     </div>
-    <homePageDetail />
+    <exprienceBanner />
     <div class="container mt-5">
       <div class="row">
         <div class="col-lg-6 mt-2">
@@ -80,6 +80,7 @@
         </div>
       </div>
     </div>
+    <supportBanner class="mt-5 mb-5" />
   </div>
 </template>
 
@@ -87,7 +88,8 @@
 import baseCarousel from "@/components/base/baseCarousel";
 import homePageCard from "@/components/cards/homePageCard";
 import baseDivider from "@/components/base/baseDivider";
-import homePageDetail from "@/components/homePageDetail";
+import exprienceBanner from "@/components/exprienceBanner";
+import supportBanner from "@/components/supportBanner";
 import { onBeforeMount, computed } from "vue";
 import { carouselApi } from "@/api/carouselApi";
 import { carouselDataStore } from "@/stores/carouselDataStore";

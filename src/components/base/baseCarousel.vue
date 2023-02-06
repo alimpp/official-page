@@ -53,7 +53,7 @@ const props = defineProps({
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 0 60px;
+      padding: 0 100px;
       background: rgba(16, 16, 16, 0.5);
       backdrop-filter: blur(4px);
       -webkit-backdrop-filter: blur(4px);

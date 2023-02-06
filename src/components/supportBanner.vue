@@ -1,7 +1,7 @@
 <template>
-  <div class="home-page-deatail">
+  <div class="sappurt-banner">
     <div class="glass">
-      <span class="size_medium light_color">50 years Exprience</span>
+      <span class="size_medium light_color">Best Support</span>
       <p class="size_very_small light_color pt-1">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores beatae deleniti
         sapiente. Dicta, harum impedit optio quasi rem enim, animi autem error corrupti
@@ -24,17 +24,17 @@
 </template>
 
 <script setup>
-import baseBtn from "@/components/base/baseBtn";
+import baseBtn from '@/components/base/baseBtn'
 </script>
 
 <style lang="scss" scoped>
-.home-page-deatail {
+.sappurt-banner {
   width: 100%;
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url("https://fullsuitcase.com/wp-content/uploads/2020/10/Best-roads-in-the-world-Lamar-Valley-in-Yellowstone-National-Park.jpg.webp");
+  background-image: url("https://www.qmul.ac.uk/welfare/media/advice-and-counselling-service/new-site-assets/wellbeing-support/iStock-909025844-2-700x350.jpg");
   .glass {
     width: 100%;
     height: 100vh;
