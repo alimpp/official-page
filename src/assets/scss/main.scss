@@ -1,0 +1,48 @@
+@import './classes/background.scss';
+@import './classes/colors.scss';
+@import './classes/fontSizes.scss';
+@import './classes/theme.scss';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.application_pointer {
+    cursor: pointer;
+  }
+  
+  .application_animation {
+    animation: 1s app_animation;
+  }
+  
+  .application_link {
+    text-decoration: none;
+  }
+  .app_link:hover {
+    color: #fff;
+  }
+  
+  @keyframes app_animation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  ::-webkit-scrollbar {
+    width: 2px;
+    border: 0px solid #2c2c2c;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background: #eeeeee;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #cac8c8;
+  }

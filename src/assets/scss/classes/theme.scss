@@ -1,0 +1,12 @@
+@import '../variables/themeColors.scss';
+
+.application_dark_mode_theme{
+    background-color: var(--application-dark-mode-color);
+    color: var(--light-);
+    transition: 0.3s;
+}
+.application_light_mode_theme{
+    background-color: var(--application-light-mode-color);
+    color: var(--dark-);
+    transition: 0.3s;
+}

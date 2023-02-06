@@ -1,0 +1,26 @@
+@import '../variables/themeColors.scss';
+
+.primary_color{
+    color: var(--primary-);
+}
+.secondary_color{
+    color: var(--secondary-);
+}
+.success_color{
+    color: var(--success-);
+}
+.danger_color{
+    color: var(--danger-);
+}
+.warning_color{
+    color: var(--warning-);
+}
+.info_color{
+    color: var(--info-);
+}
+.light_color{
+    color: var(--light-);
+}
+.dark_color{
+    color: var(--dark-);
+}
