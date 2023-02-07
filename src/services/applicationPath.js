@@ -4,7 +4,9 @@ export const application_path = {
     GET: {
       carousel: '/carouseldata'
     },
-    POST: {},
+    POST: {
+      sendFeedBack: '/feedBacks'
+    },
     PUT: {},
     DELETE: {},
 };

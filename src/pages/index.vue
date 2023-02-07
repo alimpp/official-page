@@ -1,8 +1,5 @@
 <template>
-  <div class="home-page d-flex flex-column">
-    <animationTopToBottom v-if="animation" />
-    <div class="application_animation" v-else>
-      <navigation />
+  <div class="home-page d-flex flex-column application_animation">
       <baseCarousel autoplayTime="3000" :slides="dataSource" />
       <div class="container">
         <baseDivider class="mt-3" text="All Services" width="110px" />
@@ -90,7 +87,7 @@
       <supportBanner class="mt-5 mb-5" ref="test" />
       <div class="container my-5">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6 mt-3">
             <baseDivider text="Send FeedBack" width="150px" />
             <span class="size_very_small"
               >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ullam
@@ -102,14 +99,13 @@
               fugiat?</span
             >
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 mt-3">
             <feedBack />
           </div>
         </div>
       </div>
       <applicationFooter />
     </div>
-  </div>
 </template>
 
 <script setup>
@@ -120,7 +116,6 @@ import exprienceBanner from "@/components/exprienceBanner";
 import supportBanner from "@/components/supportBanner";
 import navigation from "@/layout/navigation";
 import applicationFooter from "@/layout/applicationFooter";
-import animationTopToBottom from "@/components/animationTopToBottom";
 import feedBack from '@/components/feedBack'
 import { onBeforeMount, computed, ref } from "vue";
 import { carouselApi } from "@/api/carouselApi";
